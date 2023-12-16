@@ -4,7 +4,7 @@ const {
 	getBookByIdHandler,
 	editBookByIdHandler,
 	deleteBookByIdHandler,
-} = require("./bookshelf-api/src/handler");
+} = require("./handler");
 
 const routes = [
 	{
