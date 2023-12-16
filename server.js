@@ -1,7 +1,7 @@
 "use strict";
 
 const Hapi = require("@hapi/hapi");
-const routes = require("./routes");
+const routes = require("./bookshelf-api/src/routes");
 
 const init = async () => {
 	const server = Hapi.server({
